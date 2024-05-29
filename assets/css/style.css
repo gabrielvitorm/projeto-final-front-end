@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Paleta de Cores
+
+#03658C --> Azul 'Escuro'
+#4E8DA6 -->  Azul 'Médio'
+#88B5BF --> Azul 'Bebê'
+#595958 --> Cinza
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Fontes
 
@@ -13,17 +25,6 @@ Fontes
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Paleta de Cores
-
-#03658C --> Azul 'Escuro'
-#4E8DA6 -->  Azul 'Médio'
-#88B5BF --> Azul 'Bebê'
-#595958 --> Cinza
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 html, body{
     display: flex;
@@ -36,7 +37,7 @@ html, body{
 
 footer{
     margin-top: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     margin: auto;
     width: 100%;
@@ -55,15 +56,51 @@ footer{
 #logoSE{
     height: 50px;
     width: 50px;
-main
-    left: ;
-main
+    margin: 10px 0px 10px 10px;
 }
 
 .headerContainer{
     display: flex;
     align-items: center;
     padding: 1em;
-    background-color: #4E8DA6;
+    background-color: #fff;
+    color: #000;
+}
+
+.social-bar {
+    background-color: #03658C;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.social-bar .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon{
+    text-decoration: none;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.social-icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.navbar{
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    z-index: 900;
+}
+
+.icon{
     color: white;
 }
