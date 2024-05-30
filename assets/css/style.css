@@ -27,21 +27,21 @@ Fontes
 
 
 html, body{
+    height: 100%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer{
-    margin-top: 20px;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    margin: auto;
+    margin-top: auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.729);
+    background-color: #03658C;
     color: white;
     padding: 1.2em;
     text-align: center;
@@ -56,7 +56,7 @@ footer{
 #logoSE{
     height: 50px;
     width: 50px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 60px;
 }
 
 .headerContainer{
@@ -67,7 +67,7 @@ footer{
     color: #000;
 }
 
-.social-bar {
+.social-bar{
     background-color: #03658C;
     padding: 10px 0;
     text-align: center;
@@ -104,3 +104,63 @@ footer{
 .icon{
     color: white;
 }
+
+
+#imagem1{
+    margin-bottom: 30px;
+}
+
+#imagem2{
+    margin-bottom: 50px;
+}
+
+h1.tracinho{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tracinho::before{
+    content: '.';
+    color: #03658C;
+    background-color: #03658C;
+}
+
+.tracinho2::before{
+    content: '.';
+    color: #4E8DA6;
+    background-color: #4E8DA6;
+}
+
+.tracinho2 > a{
+    text-decoration: none;
+}
+
+.main-content{
+    padding-top: 1250px;
+    flex: 1;
+}
+
+article{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.offcanvas {
+    z-index: 1050;
+}
+
+.offcanvas-header .btn-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1100;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 18px;
+}
+
