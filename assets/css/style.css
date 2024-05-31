@@ -147,6 +147,17 @@ footer{
     margin-bottom: 25px;
 }
 
+#uniesp{
+    color: #ff1111;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#uniesp > a{
+    text-decoration: none;
+    color: #ff1111;
+}
+
 h1.tracinho{
     margin-bottom: 50px;
     margin-top: 30px;
