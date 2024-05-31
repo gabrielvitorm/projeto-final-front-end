@@ -31,6 +31,9 @@ html, body{
     padding: 0;
 }
 
+button{
+    cursor: pointer;
+}
 .div-mae{
     justify-content: center;
     align-items: center;
@@ -40,6 +43,14 @@ html, body{
 
 .div-mae-content{
     max-width: 1400px;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 18px;
 }
 
 footer{
@@ -62,7 +73,7 @@ footer{
 #logoSE{
     height: 50px;
     width: 50px;
-    margin: 10px 0px 10px 60px;
+    margin: 0;
 }
 
 .headerContainer{
@@ -80,7 +91,7 @@ footer{
     position: fixed;
     top: 0; 
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
 }
 
 .social-bar .container{
@@ -150,21 +161,29 @@ article{
     padding: 0 20px;
 } 
 
-.offcanvas {
+.offcanvas{
     z-index: 10;
 }
 
-.offcanvas-header .btn-close {
+.offcanvas-header .btn-close{
     position: fixed;
     top: 10px;
     right: 10px;
     z-index: 1100;
+    box-shadow: none;
 }
 
-h1{
-    font-size: 22px;
+.offcanvas-backdrop{
+    z-index: 9;
 }
 
-h2{
-    font-size: 18px;
+.navbar-toggler:focus,
+.navbar-toggler:active{
+    box-shadow: none;
+}
+
+@media (max-width:1024px){
+    .main-content{
+       margin-top: 150px;
+    }
 }
