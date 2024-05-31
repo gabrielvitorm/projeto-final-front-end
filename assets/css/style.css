@@ -34,6 +34,7 @@ html, body{
 button{
     cursor: pointer;
 }
+
 .div-mae{
     justify-content: center;
     align-items: center;
@@ -53,15 +54,29 @@ h2{
     font-size: 18px;
 }
 
+#h1-quem{
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+#h2-font-weight{
+    font-weight: bolder;
+}
+
 footer{
     position: relative;
     bottom: 0;
-    margin-top: auto;
+    margin-top: 100px;
     width: 100%;
     background-color: #03658C;
     color: white;
     padding: 1.2em;
     text-align: center;
+}
+
+#footer-sobre{
+    position: absolute;
+    bottom: 0;
 }
 
 #SOS_ENCHENTES{
@@ -73,7 +88,7 @@ footer{
 #logoSE{
     height: 50px;
     width: 50px;
-    margin: 0;
+    margin: 0px 0px 8px 0px;
 }
 
 .headerContainer{
@@ -127,12 +142,17 @@ footer{
     margin-bottom: 30px;
 }
 
-#imagem2{
-    margin-bottom: 50px;
+#links{
+    margin-top: 100px;
+    margin-bottom: 25px;
 }
 
 h1.tracinho{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.content-margin-top{
     margin-top: 30px;
 }
 
@@ -169,7 +189,7 @@ article{
     position: fixed;
     top: 10px;
     right: 10px;
-    z-index: 1100;
+    z-index: 15;
     box-shadow: none;
 }
 
@@ -180,6 +200,10 @@ article{
 .navbar-toggler:focus,
 .navbar-toggler:active{
     box-shadow: none;
+}
+
+.navbar-brand{
+    padding: 15px;
 }
 
 @media (max-width:1024px){
