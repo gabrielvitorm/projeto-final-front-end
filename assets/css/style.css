@@ -3,6 +3,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Media Query 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media (max-width:1024px){
+    .main-content{
+       margin-top: 150px;
+    }
+}
+
+@media (max-width:524px){
+    #footer-sobre{
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .video-container {
+        width: 380px;
+    }
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Paleta de Cores
@@ -46,6 +70,7 @@ button{
     max-width: 1400px;
 }
 
+
 h1{
     font-size: 22px;
 }
@@ -54,12 +79,36 @@ h2{
     font-size: 18px;
 }
 
+#prevencao-video1{
+    margin-bottom: 50px;
+}
+
+#h1-planos-emergencia,
+#h1-medidas-prevencao{
+    margin-top: 100px;
+}
+
 #h1-quem{
     font-size: 26px;
     margin-bottom: 25px;
 }
 
-#h2-font-weight{
+#main-h1-prevencao{
+    margin-top: 200px;
+}
+
+#first-h2-prevencao,
+#second-h2-prevencao{
+    margin-bottom: 20px;
+}
+
+
+#hr1-prevencao{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.h2-font-weight-bolder{
     font-weight: bolder;
 }
 
@@ -74,9 +123,19 @@ footer{
     text-align: center;
 }
 
-#footer-sobre{
+article{
+    padding: 0 20px;
+} 
+
+.footer-sobre{
     position: absolute;
     bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    max-width: 100%;
+    height: auto;
 }
 
 #SOS_ENCHENTES{
@@ -158,6 +217,10 @@ footer{
     color: #ff1111;
 }
 
+.li-active:active{
+    background-color: #000;
+}
+
 h1.tracinho{
     margin-bottom: 50px;
     margin-top: 30px;
@@ -188,9 +251,6 @@ h1.tracinho{
     flex: 1;
 }
 
-article{
-    padding: 0 20px;
-} 
 
 .offcanvas{
     z-index: 10;
@@ -217,8 +277,3 @@ article{
     padding: 15px;
 }
 
-@media (max-width:1024px){
-    .main-content{
-       margin-top: 150px;
-    }
-}
