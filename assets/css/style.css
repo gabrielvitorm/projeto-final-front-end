@@ -44,30 +44,30 @@ Fontes
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+  font-weight: 400;  
   font-style: normal;
-}
+}  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 html, body{
     margin: 0;
     padding: 0;
-}
+}    
 
 button{
     cursor: pointer;
-}
+}    
 
 .div-mae{
     justify-content: center;
     align-items: center;
     width: 100%;
     display: flex;
-}
+}    
 
 .div-mae-content{
-    max-width: 1400px;
+    max-width: 1400px !important;
 }
 
 
@@ -88,6 +88,13 @@ h2{
     margin-top: 100px;
 }
 
+#footer-sobre{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+}
+
 #h1-quem{
     font-size: 26px;
     margin-bottom: 25px;
@@ -97,11 +104,33 @@ h2{
     margin-top: 200px;
 }
 
+#main-h1-emergencia{
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+#h2-1-emergencia{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
 #first-h2-prevencao,
 #second-h2-prevencao{
     margin-bottom: 20px;
 }
 
+#article2-sobre{
+    margin-top: 50px;
+}
+
+#article2-sobre > h2,
+#h2-objetivo-sobre{
+    margin-bottom: 10px;
+}
+
+#h2-objetivo-sobre{
+    margin-top: 30px;
+}
 
 #hr1-prevencao{
     margin-top: 30px;
@@ -110,6 +139,11 @@ h2{
 
 .h2-font-weight-bolder{
     font-weight: bolder;
+}
+
+.h3-font-weight-bolder{
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 footer{
