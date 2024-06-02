@@ -46,7 +46,10 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Voltar</a>
+                  </li>
+                <li class="nav-item">
                 <a class="nav-link" href="sobre.html">Sobre</a>
               </li>
               <li class="nav-item dropdown">
@@ -56,13 +59,12 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="prevencao.html">Prevenção</a></li>
-                  <li><a class="dropdown-item" href="emergencia.html">Emergência</a></li>
                   <li><a class="dropdown-item" href="#">Página 3</a></li>
                   <li><a class="dropdown-item" href="#">Página 4</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">AJUDE O RS COM UMA DOAÇÃO</a></li>
+                  <li><a class="dropdown-item" href="ajude.html">AJUDE O RS COM UMA DOAÇÃO</a></li>
                 </ul>
               </li>
             </ul>
@@ -74,63 +76,67 @@
   <main class="main-content" id="main-content">
     <div class="div-mae">
       <div class="div-mae-content">
-        <article>
-            <h1 class="tracinho"> EMERGÊNCIA</h1>
-            <h2 class="tracinho2" id="h2-1-emergencia"> AÇÕES IMEDIATAS</h2>
-            <h3 class="h3-font-weight-bolder">Passos a seguir se você está numa área inundada</h3>
-            <hr>
-            <ul>
-                <li>
-                    Se puder, permaneça em casa.
-                </li>
-                <br>
-                <li>
-                    Esteja atento aos boletins meteorológicos e alertas de emergência emitidos pelo Estado.
-                </li>
-                <br>
-                <li> 
-                    Siga as instruções das autoridades locais e utilize as rotas de evacuação recomendadas.
-                </li>
-                <br>
-                <li> 
-                    Evite o deslocamento para regiões afetadas.
-                </li>
-                <br>
-                <li>
-                    Se morar em área de risco, abandone o local com antecedência.
-                </li>
-                <br>
-                <li>
-                    Evite atravessar as águas de carro ou a pé.
-                </li>
-                <br>
-                <li>
-                    Se ficar isolado em local inseguro, chame imediatamente o Corpo de Bombeiros (193).
-                </li>
-                <br>
-                <li>
-                    Desconecte aparelhos elétricos para evitar choques.
-                </li>
-            </ul>
-        </article>
+          <article>
+              <section>
+                  <h1 class="tracinho-red" id="emergencia-h1-top"> EMERGÊNCIA</h1>
+                  <h2 class="tracinho2" id="h2-1-emergencia"> AÇÕES IMEDIATAS</h2>
+                  <h3 class="h3-font-weight-bolder">Siga os passos abaixo se você está numa área inundada</h3>
+                  <hr id="hr-imediatas">
+                  <ul>
+                      <li>
+                          <p>Se puder, permaneça em casa.</p>
+                      </li>
+                      <li>
+                          <p>Evite atravessar as águas de carro ou a pé.</p>
+                      </li>
+                      <li>
+                          <p>Evite o deslocamento para regiões afetadas.</p>
+                      </li>
+                      <li>
+                          <p>Desconecte aparelhos elétricos para evitar choques.</p>
+                      </li>
+                      <li>
+                          <p>Se morar em área de risco, abandone o local com antecedência.</p>
+                      </li>
+                      <li>
+                          <p>Se ficar isolado em local inseguro, chame imediatamente o Corpo de Bombeiros (193).</p>
+                      </li>
+                      <li>
+                          <p>Siga as instruções das autoridades locais e utilize as rotas de evacuação recomendadas. </p>
+                      </li>
+                      <li>
+                          <p>Esteja atento aos boletins meteorológicos e alertas de emergência emitidos pelo Estado.</p>
+                      </li>
+                  </ul>
+              </section>
+              <section>
+                  <h1 class="tracinho" id="section-abrigos-temp"> ABRIGOS TEMPORÁRIOS</h1>
+                  <h2 class="h2-font-weight-bolder">Localização de abrigos temporários</h2>
+                  <hr>
+                  <p>Plataforma com dados sobre <span id="abrig-temp">abrigos temporários</span>: <br> <a href="https://app.powerbi.com/view?r=eyJrIjoiNWQ3MDFlNGQtMDJiZS00NDU2" target="_blank" id="a-click-temp"> Clique aqui</a>
+                  </p>
+                  <p>PDF com lista de <span id="abrig-temp2">abrigos cadastrados</span>: <br> <a href="https://sosenchentes.rs.gov.br/upload/arquivos/202405/07170413-lista-abrigos-cadastrados-7-5-24.pdf" target="_blank" id="a-click-temp2">Clique aqui</a></p>
+                  <hr id="hr-between-abg-contt">
+                  <img src="assets/img/pagina-emergencia/imagem1.png" alt="Tabela Monitoramento de Abrigos" class="img-fluid" id="img-tab-mon-abg">
+              </section>
+              <section id="section-contatos-emergencia">
+                  <h1 class="tracinho" id="contt-emerg"> CONTATOS DE EMERGÊNCIA <img src="assets/img/icones/telefone-icon.png" alt="Ícone telefone" id="telefone-icon"></h1>
+                  <h2>Números de telefone de emergências locais</h2>
+                  <hr>
+                  <ul id="ul-contatos-emergencia">
+                      <li>Defesa Civil <span class="span-contatos-emergencia">199</span></li>
+                      <li> Polícia Militar <span class="span-contatos-emergencia">190</span></li>
+                      <li>Corpo de Bombeiros <span class="span-contatos-emergencia">193</span></li>
+                  </ul>
+              </section>
+          </article>
       </div>
     </div>
   </main>
-  
-  
-  
-  
-  
-  <!-- Resto da página ainda em desenvolvimento -->
-  
-  
-  
-  
-  
+
   <footer>
     <p>&copy; 2024 Cauã Crispim, Pedro Queiroga, Marcelo Nóbrega e Gabriel Vitor</p>
   </footer>
-
 
   <!-- Scripts (Open)-->
   <script src="assets/js/script.js"></script>

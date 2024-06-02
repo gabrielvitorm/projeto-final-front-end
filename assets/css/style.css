@@ -14,40 +14,46 @@ Media Query
     }
 }
 
-@media (max-width:524px){
-    #footer-sobre{
-        position: relative;
-        bottom: 0;
+@media (max-width: 680px) {
+    .video-container {
+        width: 500px;
     }
 }
 
-@media (max-width: 680px) {
-    .video-container {
-        width: 380px;
+@media (max-width:524px){
+    #footer-sobre,
+    #footer-ajude{
+        position: relative;
+        bottom: 0;
+    }  
+    
+    .main-content{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fontes importadas
+----------------------------------------
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;  
+    font-style: normal;
+}  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Paleta de Cores
-
+----------------------------------------
 #03658C --> Azul 'Escuro'
 #4E8DA6 -->  Azul 'Médio'
 #88B5BF --> Azul 'Bebê'
 #595958 --> Cinza
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Fontes
-
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;  
-  font-style: normal;
-}  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 html, body{
@@ -59,6 +65,11 @@ button{
     cursor: pointer;
 }    
 
+.main-content{
+    margin-top: 190px;
+    flex: 1;
+}
+
 .div-mae{
     justify-content: center;
     align-items: center;
@@ -68,8 +79,9 @@ button{
 
 .div-mae-content{
     max-width: 1400px !important;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
 
 h1{
     font-size: 22px;
@@ -77,6 +89,23 @@ h1{
 
 h2{
     font-size: 18px;
+}
+
+#img-pix,
+#canvaSOS{
+    width: 390px;
+    height: auto;
+    margin-bottom: 22px;
+}
+
+#hr-da-salvacao{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#telefone-icon{
+    width: 28px;
+    height: 28px;
 }
 
 #prevencao-video1{
@@ -95,9 +124,32 @@ h2{
     margin-top: 50px;
 }
 
+
+#section-contatos-emergencia{
+    margin-top: 80px;
+}
+
+#section-abrigos-temp{
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+
+#ul-contatos-emergencia{
+    list-style-type: none;
+}
+
 #h1-quem{
     font-size: 26px;
     margin-bottom: 25px;
+}
+
+#ajude-h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #88B5BF;
+    font-weight: bolder;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 #main-h1-prevencao{
@@ -109,14 +161,22 @@ h2{
     margin-bottom: 60px;
 }
 
+#emergencia-h1-top{
+    color: #cd1d1d;
+}
+
+#hr-imediatas{
+    margin-bottom: 40px;
+}
+
 #h2-1-emergencia{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 60px;
 }
 
 #first-h2-prevencao,
 #second-h2-prevencao{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #article2-sobre{
@@ -135,6 +195,59 @@ h2{
 #hr1-prevencao{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+#a-click-temp,
+#a-click-temp2{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#hr-between-abg-contt{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#section-contatos-emergencia > ul > li{
+    font-size: 19px;
+}
+
+#abrig-temp,
+#abrig-temp2{
+    text-decoration: underline;
+}
+
+#ult-not-margin{
+    margin-top: 10px;
+}
+
+#img-tab-mon-abg{
+    width: 640px;
+    height: 370px;
+}
+
+#contt-emerg{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#h2-to-nem-ai-mais{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    color: #88B5BF;
+}
+
+.tracinho-red::before{
+    content: '.';
+    color: #cd1d1d;
+    background-color: #cd1d1d;
+}
+
+.span-contatos-emergencia{
+    color: #cd1d1d;
 }
 
 .h2-font-weight-bolder{
@@ -167,7 +280,14 @@ article{
     width: 100%;
 }
 
-.video-container {
+.align-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container{
     max-width: 100%;
     height: auto;
 }
@@ -279,12 +399,6 @@ h1.tracinho{
 .tracinho2 > a{
     text-decoration: none;
 }
-
-.main-content{
-    margin-top: 190px;
-    flex: 1;
-}
-
 
 .offcanvas{
     z-index: 10;
