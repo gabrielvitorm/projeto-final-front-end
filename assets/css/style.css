@@ -22,14 +22,16 @@ Media Query
 
 @media (max-width:524px){
     #footer-sobre,
-    #footer-ajude{
+    #footer-ajude,
+    #footer-recuperacao{
         position: relative;
         bottom: 0;
+        width: 100%;
     }  
     
     .main-content{
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -79,8 +81,8 @@ button{
 
 .div-mae-content{
     max-width: 1400px !important;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1{
@@ -96,6 +98,18 @@ h2{
     width: 390px;
     height: auto;
     margin-bottom: 22px;
+}
+
+#img1-recuperacao{
+    width: 544px;
+    height: 224px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#vd1-recuperacao{
+    width: 500px;
+    height: auto;
 }
 
 #hr-da-salvacao{
@@ -172,6 +186,15 @@ h2{
 #h2-1-emergencia{
     margin-bottom: 40px;
     margin-top: 60px;
+}
+
+#h2-1-recuperacao{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#h3-1-recep{
+    margin-bottom: 20px;
 }
 
 #first-h2-prevencao,
