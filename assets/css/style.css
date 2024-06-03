@@ -193,12 +193,18 @@ h2{
     margin-bottom: 30px;
 }
 
+#h3-1-prevn,
+#h3-2-prevn{
+    margin-bottom: 25px;
+}
+
 #h3-1-recep{
     margin-bottom: 20px;
 }
 
 #first-h2-prevencao,
 #second-h2-prevencao{
+    margin-top: 75px;
     margin-bottom: 40px;
 }
 
